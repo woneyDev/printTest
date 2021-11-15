@@ -1,0 +1,28 @@
+# printTest2
+
+public class PrintTest2 {
+	public static void main(String[] args) {
+		System.out.print("Hello\n");
+		System.out.print("Java!\n");
+		System.out.print("웹개발 시작!\n");
+		
+		//  Java에서는 어떤값에 문자열을 +로 연산을 시키면 연결이 일어난다.
+		System.out.print(48+"\n");
+		
+		//  syso > 자동완성 : println() 메소드
+		
+		System.out.println("Hello");
+		System.out.println("Java!");
+		System.out.println("웹개발 시작!");
+		System.out.println(48);
+		
+		//  "woneyDev"
+		System.out.println("\"woneyDev\"");
+		
+		//  println()는 결국은 개발자를 위한 도구이다!
+		//  입력	 -> 	처리 		-> 	출력
+		//  (HTML			(Java				(HTML
+		//  CSS				DBMS)				CSS
+		//  Javascript)						Javascript)
+	}
+}
